@@ -30,5 +30,6 @@ strarr Grammar::FindRuleR(string str){
 
 void Grammar::SetGrammar(string str){
 	string tmp = "";
+	//Radimir
 
 }
