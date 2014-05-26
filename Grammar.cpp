@@ -68,6 +68,7 @@ strarr Grammar::DivString(string str, string div){
 
 void Grammar::SetGrammar(string str){
 	string tmp = "";
+<<<<<<< HEAD
 	strarr arr1 = DivString(str, div3);
 	int len1 = arr1.size();
 	for (int i = 0; i < len1; i++){
@@ -89,4 +90,7 @@ void Grammar::OutRules(){
 	for (it = tbl.begin(); it != tbl.end(); it++){
 		cout << it->first << " " << it->second << endl;
 	}
+=======
+
+>>>>>>> aafd13e8514b3f65b11e9e8e39473af21b4aa88a
 }
