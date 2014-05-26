@@ -13,4 +13,7 @@ using namespace std;
 typedef multimap<string, string> table;
 typedef vector<string> strarr;
 
+#include "Translator.h"
+#include "Grammar.h"
+
 #endif

@@ -1,8 +1,10 @@
 #include "Translator.h"
 
 int main(){
-	string g = "asd fggg trtt rtt";
-	cout << g.find("rtt", g.find("rtt") + 1) << endl;
+	string s = "d::-dd|:|rr|#|f::-ee";
+	Grammar g(s);
+	g.OutRules();
+	//cout << s.find("ssd", 0) << " " << string::npos << endl;
 	system("pause");
 	return 0;
 }

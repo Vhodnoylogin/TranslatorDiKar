@@ -10,11 +10,13 @@ protected:
 
 	strarr FindRuleL(string);
 	strarr FindRuleR(string);
+
+	strarr DivString(string, string);
 public:
 	Grammar(); // init without any 
 	Grammar(string);
 
-	void SetDividers(string, string, string);
+	void SetDividers(string d1 = "::-", string d2 = "|:|", string d3 = "|#|");
 	void SetGrammar(string str);
 
 	void OutRules();
